@@ -1,0 +1,33 @@
+# Salidas privadas de laboratorios
+scans/
+evidence/
+loot/
+private/
+exam-ecppt/
+notes-private/
+payloads/
+
+# Credenciales, tickets, claves y volcados
+.env
+.env.*
+!.env.example
+*.ccache
+*.kirbi
+*.dmp
+*.hash
+*.potfile
+*.pcap
+*.pcapng
+*.key
+*.pem
+id_rsa*
+credentials*.txt
+passwords*.txt
+
+# Archivos locales
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/
+*.pyc
+*.log
